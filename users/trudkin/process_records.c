@@ -76,9 +76,16 @@ bool cua_cut_copy_paste(uint16_t  keycode){
 
 }
 #endif 
-
+#ifdef HEAT_MAP
+    uint16_t led_counter[DRIVER_LED_TOTAL];
+#endif
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+#ifdef HEAT_MAP
+    uint8_t led_index = g_led_config.matrix_co[record->event.key.row][record->event.key.col];
+    led_counter[led_index] +=1;
+#endif
+
     switch (keycode) {
 #ifdef USE_CUA
         case KC_C:

@@ -62,6 +62,15 @@ NOTE: These are all the same length.  If you do a search/replace
 #define _________________COLEMAK_R2________________       KC_H,    KC_N,    KC_E,    KC_I,    KC_O
 #define _________________COLEMAK_R3________________       MY_K,    KC_M,    KC_COMM, KC_DOT,  KC_SLASH
 
+#define ________________COLEMAKD_L1________________       KC_Q,    KC_W,    KC_F,    KC_P,    KC_B
+#define ________________COLEMAKD_L2________________       KC_A,    KC_R,    KC_S,    KC_T,    KC_G
+#define ________________COLEMAKD_L3________________       KC_Z,    MY_X,    MY_C,    MY_D,    MY_V
+
+#define ________________COLEMAKD_R1________________       KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN
+#define ________________COLEMAKD_R2________________       KC_M,    KC_N,    KC_E,    KC_I,    KC_O
+#define ________________COLEMAKD_R3________________       MY_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLASH
+
+
 #define _________________DVORAK_L1_________________        KC_QUOT, KC_COMM, KC_DOT, KC_P,     KC_Y
 #define _________________DVORAK_L2_________________        KC_A,    KC_O,    KC_E,   KC_U,     KC_I
 #define _________________DVORAK_L3_________________        KC_SCLN, KC_Q,    KC_J,   KC_K,     MY_X
